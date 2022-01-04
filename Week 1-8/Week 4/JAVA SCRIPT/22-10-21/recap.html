@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1 id="headding" class="headding2"> head1</h1>
+<h2 class="headding2"> head2</h2>
+<p class="paragraph"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus ipsa nisi adipisci animi accusamus sequi aspernatur alias. Praesentium, quae odio, dolorem saepe voluptates atque maiores esse labore laborum debitis enim!
+
+</p>
+<p class="paragraph2"> Lorem ipsumlorem ipsum dolor sit amet consectetur, adip</p>
+<button type="submit" value="click here" ondblclick="Dzongkha()"> Dont you dare</button>
+<body>
+    
+</body>
+<script> 
+            var Dzongkha = function()
+            {
+            var head =   document.getElementsByClassName("headding2");
+            for(var x=0; x< head.length; x++)
+            {  
+            head[x].style.color = "red";
+            head[x].style.textDecoration = "underline black 1px";
+            head[x].style.fontWeight = 700;
+            head[x].style.backgroundColor="skyblue"
+            }
+
+        var para =  document.getElementsByTagName("p");
+        for(var y=0; y<para.length;y++)
+        {
+        para[y].style.textIndent = "10px";
+        para[y].style.border="blue solid 2px";
+        para[y].style.borderRadius = "blue solid 2px";
+        para[y].style.backgroundColor="gold";
+        para[y].style.textAlign="justify";
+        para[y].style.lineHeight="2px";
+    }
+}
+
+</script>
+</html>

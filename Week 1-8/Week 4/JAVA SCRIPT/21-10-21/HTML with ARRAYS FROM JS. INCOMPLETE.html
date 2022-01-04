@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array with JS </title>
+</head>
+<body>
+  
+    <p> second hedder</p>
+    <p> Third hedder</p>
+    <p> Forth hedder</p>
+    <p> Fifth hedder</p>
+   
+   <button id="button" value="submit" onclick="elementid1()">Dont you dare</button>
+     <div>
+    Jengu
+   </div>
+   <div>
+   </div>
+   <div>
+   </div>
+    
+</body>
+<script>   
+         function elementid1()
+{
+         var para= document.getElementByTagName('p');
+         for(var x=0; x<para.length; x++)
+         { para[x].style.color="red";
+           para[x].style.fontWeight=900;
+           para[x].style.backgroundColor="yellow";
+           para[x].style.fontStyle="italic";
+          }
+        var division=document.getElementsByTagName('div');
+       division[0].style.background="green";
+       division[0].style.border='2px red solid';
+       division[0].style.height="500px";
+}
+
+</script>
+</html>

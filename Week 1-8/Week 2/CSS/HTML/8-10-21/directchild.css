@@ -1,0 +1,30 @@
+#div1{
+
+
+}
+
+.nav1{
+	text-align: center;
+	background-color: black;
+	height: 40px;
+	width: 100%;
+	color: white;
+	word-spacing: 10px;
+	font-size: xx-large;
+}
+
+
+a{
+	color: blue;
+	text-decoration: none;
+}
+
+#div2{
+	color: darkorchid;
+
+}
+
+#div3{
+	color: cyan;
+
+}

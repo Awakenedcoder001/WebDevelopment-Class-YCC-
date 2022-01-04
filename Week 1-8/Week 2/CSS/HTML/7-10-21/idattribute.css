@@ -1,0 +1,23 @@
+body
+{
+	background-color: skyblue; color:darkmagenta 
+	;
+
+}
+#p1{
+    border: 2px dotted red; 
+    color: purple;
+}
+#p2{
+    background-color: ;
+    border-radius: 5px;
+    border: 3px solid black; 
+    color: black}
+
+    #p3{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+#p4{
+    background-color: black;
+}

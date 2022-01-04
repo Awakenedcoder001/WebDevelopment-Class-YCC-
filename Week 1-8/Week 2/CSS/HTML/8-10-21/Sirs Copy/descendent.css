@@ -1,0 +1,13 @@
+body #para1,.para2{
+    background-color: black;
+    color:white;
+    border:2px solid yellow;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+div>h2{
+    text-align: center;
+    color:pink ;
+    text-decoration:underline wavy 2px black;  
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        course:
+        LLB:
+        <input id="status1" type="checkbox" value="lawyer" name="status">
+        WEB:
+        <input id="status2" type="checkbox" value="Web Developer" name="">
+    </p>
+    <button type="submit" value="click here" ondblclick="valid()">click</button>
+</body>
+<script>
+    var valid=()=>{
+        var sat1=document.getElementById("status1");
+        var sat2=document.getElementById("status2");
+        if(sat1.checked==true && sat2.checked==true){
+            alert(`the user has selected both the values as ${sat1.value} and ${sat2.value} `)
+        }
+        else if(sat1.checked==true){
+            alert(`the user have selected ${sat1.value}`)
+        }
+        else if(sat2.checked==true){
+            alert(`the user have selected ${sat2.value}`)
+        }
+        else{
+            alert(`user have not selected any option`)
+        }
+    }
+</script>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opacity</title>
+</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fadeing the images</title>
+</head>
+<body>
+    <img id="img1" src="1.jpg" alt="img1">
+    <button type="submit" onclick="start()">click</button>
+</body>
+<script>
+    var id=0;
+    var opacity_1=0;
+    var fadeIn=()=>{
+        var img1=document.getElementById("img1");
+        opacity_1 = img1.style.opacity;
+    console.log(opacity_1)
+       if(0<opacity_1){
+        opacity_1 = opacity_1 - 0.1;
+        img1.style.opacity=opacity_1;
+       }
+       else{
+           window.clearInterval(id);
+       }
+    }
+    var start=()=>{
+      id=  window.setInterval(fadeIn,1000)
+    }
+</script>
+</html>
+<body>
+    
+</body>
+</html>

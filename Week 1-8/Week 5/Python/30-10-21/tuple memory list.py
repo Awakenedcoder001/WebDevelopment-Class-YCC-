@@ -1,0 +1,14 @@
+list=[10,20,30,10,40]
+print(list)
+print(id(list))
+print(id(list[0]))
+print(id(list[1]))
+list_1=[10,20,30,10,40]
+print(list_1)
+print(id(list_1))
+print(id(list_1[0]))
+print(id(list_1[2]))
+list_1.append(30)
+print(list_1)
+print(list)
+print(id(list_1[5]))

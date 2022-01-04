@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <h1 id="heading1"></h1>
+    <p id="p"> </p>
+    <button id="btn" value="submit"  onclick="fetch_data()"> click here</button>
+</body>
+<script>
+    function fetch_data(){
+        alert(document.getElementById("heading1").innerHTML="Welcome to my page")
+        alert(document.getElementById("p").innerHTML="Paragraph") 
+    }
+</script>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Thinley Tobgay, [22.10.21 09:52]
+class="heading2"
+
+Thinley Tobgay, [22.10.21 09:52]
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="heading" class="heading2">head 1</h1>
+    <h2 class="heading2" >head 2</h2>
+    <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsa similique at reiciendis consectetur beatae ipsam fuga illum. Aperiam explicabo possimus illo accusamus corporis minus obcaecati. Eos, unde temporibus. Dolores?</p>
+    <h2 class="heading2">heading 3</h2>
+    <p class="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi blanditiis quos dicta optio illum voluptates a recusandae totam temporibus? Odio natus placeat inventore quibusdam at odit similique expedita omnis velit?</p>
+    <button type="submit" value="click here" ondblclick="english()">click</button>
+</body>
+<script>
+    var english = function ()
+    {
+        var head=document.getElementsByClassName("heading2")
+        for(var x=0; x < head.length; x++)
+        {
+            head[x].style.color="red";
+            head[x].style.textDecoration="underline black 1px";
+            head[x].style.fontWeight=700;
+            
+        }
+        var para=document.getElementsByTagName("p");
+        for(var y=0; y<para.length; y++){
+            para[y].style.textIndent = 30;
+            para[y].style.border = "red solid 2px";
+            para[y].style.borderRadius="5px 0px";
+            para[y].style.backgroundColor="gold";
+            para[y].style.textAlign="justify ";
+            para[y].style.lineHeight=5;
+        }
+    }
+</script>
+</html>
+    
+</body>
+</html>

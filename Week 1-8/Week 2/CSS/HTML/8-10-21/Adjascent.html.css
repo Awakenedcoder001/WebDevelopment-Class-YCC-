@@ -1,0 +1,14 @@
+Body{
+	background-color: pink;
+}
+
+nav{
+	border: 4px;
+	background-color: black;
+}
+
+a{
+	color: whitesmoke;
+	text-align: centre;
+	text-decoration: none;
+}

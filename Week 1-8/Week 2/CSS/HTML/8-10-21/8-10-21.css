@@ -1,0 +1,26 @@
+body{
+	background-color: darkslategrey;
+}
+.FirstH1{
+	color: red;
+	background-color: pink;
+	font-family: fantasy: ;
+	font-weight: darker;
+}
+.SecondS{
+	color: blue;
+	background-color: black;
+	font-family: fantasy: ;
+	font-weight: darker;
+}
+p.SecondS{
+	color: darkcyan;
+	background-color: violet;
+}
+
+.Th3{
+	color: blueviolet;
+	background-color: black;
+	font-family: fantasy: ;
+	font-weight: lighter;
+}

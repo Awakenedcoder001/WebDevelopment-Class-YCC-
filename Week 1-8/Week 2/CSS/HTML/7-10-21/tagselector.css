@@ -1,0 +1,20 @@
+body{background-color: pink; font-family: monospace;}
+h1{
+	text-align: center;
+	color: blue;
+	text-decoratino: overline;
+}
+
+h2{border: 3px dotted green;
+	border-radius: 20px 0px;
+	color orange
+}
+.p1{
+	font-weight:  bolder;
+	border: 2px solied white;
+	border-radius: 5px	;
+	text-align: justify;
+	background-color: grey;
+	text-indent: 50px;
+	word-spacing: 5px;
+}
